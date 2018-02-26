@@ -3,7 +3,7 @@ import time
 import sys
 
 url = 'https://api.twitch.tv/helix/'
-headers = {'Client-ID': '003xkrdr02vwtl6s14vjmef1992bt2'}
+headers = {'Client-ID': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'}
 
 def get_response(url, headers, params):
 	response = requests.get(url,  headers=headers, params=params)	
